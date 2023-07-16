@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="5" parallel="tests" name="Testpack1(failed)" verbose="2">
+    <classes>
+      <class name="tests.RunVerifyLogin">
+        <methods>
+          <include name="runLogin"/>
+          <include name="precondition"/>
+          <include name="setValues"/>
+          <include name="startReport"/>
+          <include name="testCaseDetails"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- tests.RunVerifyLogin -->
+      <class name="tests.RunCreateLeadPage">
+        <methods>
+          <include name="runVerifyLogin"/>
+          <include name="precondition"/>
+          <include name="setValues"/>
+          <include name="startReport"/>
+          <include name="testCaseDetails"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- tests.RunCreateLeadPage -->
+    </classes>
+  </test> <!-- Testpack1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
