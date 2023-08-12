@@ -21,9 +21,9 @@ public class MergeLeadsPage extends PageSpecificMethods {
 		Set<String> allWindows = driver.getWindowHandles();
 		List<String> allhandles = new ArrayList<String>(allWindows);
 		driver.switchTo().window(allhandles.get(1));
-		driver.findElement(By.xpath("//input[@name='firstName']")).sendKeys("Karthika");
+		driver.findElement(By.xpath("//input[@name='firstName']")).sendKeys("Gokul");
 		driver.findElement(By.xpath("//button[text()='Find Leads']")).click();
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 		String leadID = driver.findElement(By.xpath("//td[@class='x-grid3-col x-grid3-cell x-grid3-td-partyId x-grid3-cell-first ']//a"))
 				.getText();
 		System.out.println("leadid"+leadID);

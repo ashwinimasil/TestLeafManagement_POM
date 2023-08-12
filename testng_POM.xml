@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel= "tests" thread-count="5" verbose="2">
-  <parameter name="Browser" value="chrome"></parameter>
-  <test thread-count="5"  name="Testpack1">
-    <classes>
-    <class name="tests.RunCreateLeadPage"/>
+
+<suite name="Suite" thread-count="2" verbose="2">
+ <parameter name="BrowserName" value="Firefox"></parameter>
+   <test name="Testpack1">
+  <!--<classes>
+  <class name="tests.RunCreateLeadPage"/>
      <class name="tests.RunVerifyLogin"/>
-     <!-- <class name="tests.RunDuplicateLeadPage"/>
-       <class name="tests.RunMergeLeadPage"/>
-       </classes>
+            <class name="tests.RunDeleteLead"/>
+         <class name="tests.RunDuplicateLeadPage"/>
+       </classes>-->
   </test>
   
+  <parameter name="BrowserName" value="Chrome"></parameter>
   <test name="Testpack2" verbose="2" >
-  <parameter name="Browser" value="Edge"></parameter>
-    <classes>
-      <class name="tests.RunDeleteLead"/>-->
+      <classes>
+      <class name="tests.RunMergeLeadPage"/> 
        </classes>
   </test>
-  
-  
-  
-  </suite>
+   </suite>

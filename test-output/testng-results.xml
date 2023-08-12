@@ -1,211 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="0" failed="0" skipped="2">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-14T12:13:25 BST" name="Suite" finished-at="2023-07-14T12:13:26 BST" duration-ms="916">
+  <suite started-at="2023-07-20T17:57:42 BST" name="Suite" finished-at="2023-07-20T17:58:01 BST" duration-ms="18969">
     <groups>
     </groups>
-    <test started-at="2023-07-14T12:13:25 BST" name="Testpack1" finished-at="2023-07-14T12:13:26 BST" duration-ms="916">
-      <class name="tests.RunVerifyLogin">
-        <test-method is-config="true" signature="setValues()[pri:0, instance:tests.RunVerifyLogin@4b2bac3f]" started-at="2023-07-14T12:13:25 BST" name="setValues" finished-at="2023-07-14T12:13:25 BST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setValues -->
-        <test-method is-config="true" signature="testCaseDetails()[pri:0, instance:tests.RunVerifyLogin@4b2bac3f]" started-at="2023-07-14T12:13:26 BST" name="testCaseDetails" finished-at="2023-07-14T12:13:26 BST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String, String)" because "this.extent" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String, String)" because "this.extent" is null
-at base.PageSpecificMethods.testCaseDetails(PageSpecificMethods.java:44)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseDetails -->
-        <test-method is-config="true" signature="precondition(java.lang.String)[pri:0, instance:tests.RunVerifyLogin@4b2bac3f]" started-at="2023-07-14T12:13:26 BST" name="precondition" finished-at="2023-07-14T12:13:26 BST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- precondition -->
-        <test-method signature="runLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.RunVerifyLogin@4b2bac3f]" started-at="2023-07-14T12:13:26 BST" name="runLogin" data-provider="sendData" finished-at="2023-07-14T12:13:26 BST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Infosys]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rocky]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[bhai]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String, String)" because "this.extent" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentReports.createTest(String, String)" because "this.extent" is null
-at base.PageSpecificMethods.testCaseDetails(PageSpecificMethods.java:44)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runLogin -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tests.RunVerifyLogin@4b2bac3f]" started-at="2023-07-14T12:13:26 BST" name="close" finished-at="2023-07-14T12:13:26 BST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- tests.RunVerifyLogin -->
-      <class name="tests.RunCreateLeadPage">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:tests.RunCreateLeadPage@15de0b3c]" started-at="2023-07-14T12:13:25 BST" name="startReport" finished-at="2023-07-14T12:13:25 BST" duration-ms="163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setValues()[pri:0, instance:tests.RunCreateLeadPage@15de0b3c]" started-at="2023-07-14T12:13:25 BST" name="setValues" finished-at="2023-07-14T12:13:25 BST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setValues -->
-        <test-method is-config="true" signature="testCaseDetails()[pri:0, instance:tests.RunCreateLeadPage@15de0b3c]" started-at="2023-07-14T12:13:25 BST" name="testCaseDetails" finished-at="2023-07-14T12:13:25 BST" duration-ms="2" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[testName cannot be null or empty]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: testName cannot be null or empty
-at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:80)
-at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:100)
-at com.aventstack.extentreports.ExtentReports.createTest(ExtentReports.java:238)
-at base.PageSpecificMethods.testCaseDetails(PageSpecificMethods.java:44)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseDetails -->
-        <test-method is-config="true" signature="precondition(java.lang.String)[pri:0, instance:tests.RunCreateLeadPage@15de0b3c]" started-at="2023-07-14T12:13:26 BST" name="precondition" finished-at="2023-07-14T12:13:26 BST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- precondition -->
-        <test-method signature="runVerifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.RunCreateLeadPage@15de0b3c]" started-at="2023-07-14T12:13:26 BST" name="runVerifyLogin" data-provider="sendData" finished-at="2023-07-14T12:13:26 BST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Infosys]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rocky]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[bhai]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[testName cannot be null or empty]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: testName cannot be null or empty
-at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:80)
-at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:100)
-at com.aventstack.extentreports.ExtentReports.createTest(ExtentReports.java:238)
-at base.PageSpecificMethods.testCaseDetails(PageSpecificMethods.java:44)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runVerifyLogin -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tests.RunCreateLeadPage@15de0b3c]" started-at="2023-07-14T12:13:26 BST" name="close" finished-at="2023-07-14T12:13:26 BST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- tests.RunCreateLeadPage -->
+    <test started-at="2023-07-20T17:57:42 BST" name="Testpack1" finished-at="2023-07-20T17:57:42 BST" duration-ms="13">
     </test> <!-- Testpack1 -->
+    <test started-at="2023-07-20T17:57:42 BST" name="Testpack2" finished-at="2023-07-20T17:58:01 BST" duration-ms="18871">
+      <class name="tests.RunMergeLeadPage">
+        <test-method is-config="true" signature="precondition(java.lang.String)[pri:0, instance:tests.RunMergeLeadPage@1a677343]" started-at="2023-07-20T17:57:42 BST" name="precondition" finished-at="2023-07-20T17:57:46 BST" duration-ms="3838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="runMergeLead()[pri:0, instance:tests.RunMergeLeadPage@1a677343]" started-at="2023-07-20T17:57:46 BST" name="runMergeLead" finished-at="2023-07-20T17:58:01 BST" duration-ms="14629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runMergeLead -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.RunMergeLeadPage@1a677343]" started-at="2023-07-20T17:58:01 BST" name="close" finished-at="2023-07-20T17:58:01 BST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.RunMergeLeadPage -->
+    </test> <!-- Testpack2 -->
   </suite> <!-- Suite -->
 </testng-results>

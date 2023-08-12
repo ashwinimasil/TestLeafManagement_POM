@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.RunCreateLeadPage">
+      <class name="tests.RunDuplicateLeadPage">
         <methods>
-          <include name="runVerifyLogin"/>
-          <include name="setValues"/>
+          <include name="runDuplicateLogin"/>
           <include name="precondition"/>
-          <include name="startReport"/>
-          <include name="testCaseDetails"/>
           <include name="close"/>
         </methods>
-      </class> <!-- tests.RunCreateLeadPage -->
+      </class> <!-- tests.RunDuplicateLeadPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

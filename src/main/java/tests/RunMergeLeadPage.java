@@ -9,8 +9,16 @@ import pagesinmyleads.LoginPage;
 public class RunMergeLeadPage extends PageSpecificMethods{
 	public void runMergeLead() throws InterruptedException {
 		LoginPage lp = new LoginPage(driver);
-		lp.enterUserName().password().clickSubmit().clickCRMSFALink()
-		.clickLeads().clickMergeLeads().fromLeadWidget().toLeadWidget().clickMergeButton().alertHandle();
+		lp.enterUserName()
+		.password()
+		.clickSubmit()
+		.clickCRMSFALink()
+		.clickLeads()
+		.clickMergeLeads()
+		.fromLeadWidget()
+		.toLeadWidget()
+		.clickMergeButton()
+		.alertHandle();
 		System.out.println("MergeLead success");
 
 }

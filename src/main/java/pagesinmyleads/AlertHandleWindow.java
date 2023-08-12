@@ -18,5 +18,4 @@ public class AlertHandleWindow extends PageSpecificMethods {
 		ex.accept();
 		return new ViewLeadsPage(driver);
 }
-
 }

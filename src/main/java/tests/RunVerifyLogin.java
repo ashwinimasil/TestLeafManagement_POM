@@ -7,16 +7,14 @@ import base.PageSpecificMethods;
 import pagesinmyleads.LoginPage;
 
 public class RunVerifyLogin extends PageSpecificMethods{
-	
-	
 	@BeforeTest
 	public void setValues() 
 	{
 		excelFileName = "CreateLead";
-		testName="Login";
+		/*testName="Login";
 		testDescription="Verfiy Name";
 		testCategory="Regression";
-		testAuthor="Ashwini";
+		testAuthor="Ashwini";*/
 	}
 	
 	@Test(dataProvider = "sendData")

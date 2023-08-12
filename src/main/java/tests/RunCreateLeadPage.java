@@ -16,8 +16,17 @@ public class RunCreateLeadPage extends PageSpecificMethods {
 	@Test(dataProvider ="sendData")
 	public void runVerifyLogin(String CName, String FName, String LName) {
 		LoginPage lp = new LoginPage(driver);
-		lp.enterUserName().password().clickSubmit().clickCRMSFALink();
-		
+		lp.enterUserName()
+		.password()
+		.clickSubmit()
+		.clickCRMSFALink()
+		.clickLeads()
+		.createLead()
+		.companyName(CName)
+		.firstName(FName)
+		.lastName(LName)
+		.phoneNumber()
+		.submitButton();
 		System.out.println("CreateLead success");
 	}
 }
